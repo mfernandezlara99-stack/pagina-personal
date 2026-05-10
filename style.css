@@ -74,7 +74,18 @@ nav h2 {
     color: #006b4f;
     text-transform: uppercase;
     font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.subtitle {
     margin-bottom: 30px;
+    font-size: 17px;
+    color: #ff6b2c;
+    font-weight: 700;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    max-width: 520px;
 }
 
 .hero p {
@@ -282,6 +293,10 @@ footer {
 
     .hero h1 {
         font-size: 42px;
+    }
+
+    .subtitle {
+        font-size: 14px;
     }
 
     .hero-image img {

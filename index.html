@@ -3,42 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Personal</title>
+    <title>Mariana Fernández | Guía de Montaña</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Mariana Fernández</h1>
-    </header>
+<header class="hero">
+    <nav>
+        <h2>Mariana Fernández</h2>
+        <div>
+            <a href="index.html">Inicio</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+    </nav>
 
-    <main>
+    <section class="hero-contenido">
+        <div>
+            <p class="etiqueta">Patagonia · Suiza · Alpes</p>
+            <h1>Experiencias de montaña en verano e invierno</h1>
+            <p>
+                Soy Mariana Fernández, instructora de esquí y snowboard, amante del outdoor
+                y creadora de experiencias personalizadas en la montaña.
+            </p>
+            <a class="boton" href="contacto.html">Contactarme</a>
+        </div>
+
+        <img src="foto-primera.jpg" alt="Foto principal de Mariana">
+    </section>
+</header>
+
+<main>
+
+    <section class="seccion clara">
         <h2>Sobre mí</h2>
-
         <p>
-            Hola, soy Mariana Fernández, tengo 26 años y soy de la Patagonia. Actualmente vivo en Suiza y estudio Administración de Empresas online en UADE.
+            Tengo 26 años, soy de la Patagonia y actualmente vivo en Suiza. Estudio Administración
+            de Empresas online en UADE y trabajo en la montaña, combinando turismo, deporte y naturaleza.
         </p>
+    </section>
 
-        <p>
-            Trabajo como instructora de esquí y snowboard. También tengo un proyecto llamado Proyecto Alpino, donde estamos desarrollando experiencias guiadas de hiking y mountain biking.
-        </p>
+    <section class="seccion verde">
+        <h2>Qué experiencias ofrezco</h2>
 
-        <p>
-            Me considero una persona divertida, creativa, moderna, flexible y organizada. En mi tiempo libre me gusta hacer mountain biking, ir a clases de arte y pasar tiempo con amigas.
-        </p>
+        <div class="tarjetas">
+            <article>
+                <h3>Invierno</h3>
+                <p>Experiencias de esquí y snowboard para disfrutar la nieve con seguridad y confianza.</p>
+            </article>
 
-        <p>
-            Hablo español, inglés e italiano, y también entiendo portugués.
-        </p>
+            <article>
+                <h3>Verano</h3>
+                <p>Hiking, mountain biking y recorridos por paisajes alpinos únicos.</p>
+            </article>
 
-        <img src="https://via.placeholder.com/300" alt="Infografía personal">
+            <article>
+                <h3>Tours en pueblos</h3>
+                <p>Paseos personalizados por pueblos de montaña, cultura local y rincones especiales.</p>
+            </article>
+        </div>
+    </section>
 
-    </main>
+    <section class="seccion clara dos-columnas">
+        <img src="foto-secundaria.jpg" alt="Mariana en la montaña">
 
-    <footer>
-        <p>Trabajo Práctico - Desarrollo Web</p>
-    </footer>
+        <div>
+            <h2>Proyecto Alpino</h2>
+            <p>
+                Junto con Proyecto Alpino buscamos crear experiencias auténticas, cercanas y adaptadas
+                a cada persona. La idea no es ofrecer un tour común, sino una aventura personalizada
+                en la región alpina.
+            </p>
+        </div>
+    </section>
+
+    <section class="galeria">
+        <img src="foto-tercera.jpg" alt="Foto de montaña">
+        <img src="foto-cuarta.JPG" alt="Foto de Mariana">
+        <img src="foto-quinta.jpg" alt="Foto de montaña">
+    </section>
+
+</main>
+
+<footer>
+    <p>Trabajo Práctico - Desarrollo Web | UADE</p>
+</footer>
 
 </body>
 </html>

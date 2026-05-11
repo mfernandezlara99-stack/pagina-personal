@@ -254,7 +254,6 @@ nav h2 {
 .infografia-section {
     background-color: #f7f1e8;
     padding: 80px 70px;
-    text-align: center;
 }
 
 .infografia-section h2 {
@@ -263,24 +262,52 @@ nav h2 {
     line-height: 1;
     text-transform: uppercase;
     font-weight: 900;
-    margin-bottom: 35px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.infografia-contenido {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.infografia-box {
+    width: 55%;
+}
+
+.infografia-box img {
+    width: 100%;
+    max-height: 850px;
+    object-fit: contain;
+    display: block;
+    border-radius: 35px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
 }
 
 .contacto-infografia {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    flex-wrap: wrap;
-    margin-bottom: 45px;
+    width: 45%;
+    background-color: #f2c4df;
+    padding: 45px;
+    border-radius: 35px;
+}
+
+.contacto-infografia h3 {
+    color: #006b4f;
+    font-size: 34px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 30px;
 }
 
 .contacto-infografia p {
-    background-color: #f2c4df;
+    background-color: #f7f1e8;
     color: #1f1f1f;
-    padding: 12px 22px;
-    border-radius: 30px;
-    font-size: 14px;
+    padding: 16px 22px;
+    border-radius: 25px;
+    font-size: 15px;
     font-weight: bold;
+    margin-bottom: 18px;
 }
 
 .contacto-infografia span {
@@ -288,18 +315,6 @@ nav h2 {
     text-transform: uppercase;
     font-size: 12px;
     margin-right: 5px;
-}
-
-.infografia-box {
-    max-width: 850px;
-    margin: 0 auto;
-}
-
-.infografia-box img {
-    width: 100%;
-    display: block;
-    border-radius: 35px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
 }
 
 /* FOOTER */
@@ -333,14 +348,17 @@ footer {
     }
 
     .hero,
-    .green-section {
+    .green-section,
+    .infografia-contenido {
         flex-direction: column;
         padding: 50px 30px;
     }
 
     .hero-text,
     .green-text,
-    .video-box {
+    .video-box,
+    .infografia-box,
+    .contacto-infografia {
         width: 100%;
     }
 
@@ -358,7 +376,8 @@ footer {
     }
 
     .green-text h2,
-    .cream-card h2 {
+    .cream-card h2,
+    .infografia-section h2 {
         font-size: 30px;
     }
 
@@ -375,24 +394,11 @@ footer {
         width: 100%;
     }
 
-    .infografia-section {
-        padding: 50px 25px;
-    }
-
-    .infografia-section h2 {
-        font-size: 30px;
-    }
-
     .contacto-infografia {
-        flex-direction: column;
-        gap: 15px;
+        padding: 30px;
     }
 
-    .contacto-infografia p {
-        font-size: 13px;
-    }
-
-    .infografia-box img {
-        border-radius: 25px;
+    .contacto-infografia h3 {
+        font-size: 28px;
     }
 }

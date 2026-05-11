@@ -249,6 +249,59 @@ nav h2 {
     line-height: 1.6;
 }
 
+/* INFOGRAFIA */
+
+.infografia-section {
+    background-color: #f7f1e8;
+    padding: 80px 70px;
+    text-align: center;
+}
+
+.infografia-section h2 {
+    color: #006b4f;
+    font-size: 42px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 35px;
+}
+
+.contacto-infografia {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-bottom: 45px;
+}
+
+.contacto-infografia p {
+    background-color: #f2c4df;
+    color: #1f1f1f;
+    padding: 12px 22px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.contacto-infografia span {
+    color: #006b4f;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.infografia-box {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.infografia-box img {
+    width: 100%;
+    display: block;
+    border-radius: 35px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
 /* FOOTER */
 
 footer {
@@ -320,5 +373,26 @@ footer {
 
     .card {
         width: 100%;
+    }
+
+    .infografia-section {
+        padding: 50px 25px;
+    }
+
+    .infografia-section h2 {
+        font-size: 30px;
+    }
+
+    .contacto-infografia {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .contacto-infografia p {
+        font-size: 13px;
+    }
+
+    .infografia-box img {
+        border-radius: 25px;
     }
 }

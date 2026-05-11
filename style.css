@@ -269,6 +269,7 @@ nav h2 {
 .infografia-contenido {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 60px;
 }
 
@@ -286,43 +287,42 @@ nav h2 {
 }
 
 .contacto-infografia {
-    width: 45%;
+    width: 40%;
     background-color: #f2c4df;
-    padding: 45px;
-    border-radius: 35px;
+    padding: 50px;
+    border-radius: 40px;
+    text-align: center;
 }
 
 .contacto-infografia h3 {
     color: #006b4f;
-    font-size: 34px;
+    font-size: 42px;
     text-transform: uppercase;
     font-weight: 900;
-    margin-bottom: 22px;
+    margin-bottom: 25px;
 }
 
 .contacto-infografia p {
-    color: #1f1f1f;
-    font-size: 15px;
-    line-height: 1.6;
-    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 35px;
 }
 
 .contacto-botones {
     display: flex;
-    gap: 16px;
-    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
 .boton-contacto {
-    display: inline-block;
     background-color: #f7f1e8;
     color: #006b4f;
     text-decoration: none;
-    padding: 14px 26px;
-    border-radius: 30px;
+    padding: 16px 34px;
+    border-radius: 999px;
     font-size: 15px;
     font-weight: bold;
-    transition: 0.3s;
+    transition: 0.3s ease;
 }
 
 .boton-contacto:hover {
@@ -390,7 +390,8 @@ footer {
 
     .green-text h2,
     .cream-card h2,
-    .infografia-section h2 {
+    .infografia-section h2,
+    .contacto-infografia h3 {
         font-size: 30px;
     }
 
@@ -408,18 +409,11 @@ footer {
     }
 
     .contacto-infografia {
-        padding: 30px;
-    }
-
-    .contacto-infografia h3 {
-        font-size: 28px;
+        padding: 35px;
     }
 
     .contacto-botones {
         flex-direction: column;
-    }
-
-    .boton-contacto {
-        text-align: center;
+        align-items: center;
     }
 }

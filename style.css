@@ -297,33 +297,37 @@ nav h2 {
     font-size: 34px;
     text-transform: uppercase;
     font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.contacto-infografia p {
+    color: #1f1f1f;
+    font-size: 15px;
+    line-height: 1.6;
     margin-bottom: 30px;
 }
 
-.contacto-infografia a {
-    display: block;
+.contacto-botones {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.boton-contacto {
+    display: inline-block;
     background-color: #f7f1e8;
-    color: #1f1f1f;
+    color: #006b4f;
     text-decoration: none;
-    padding: 18px 24px;
-    border-radius: 25px;
+    padding: 14px 26px;
+    border-radius: 30px;
     font-size: 15px;
     font-weight: bold;
-    margin-bottom: 18px;
     transition: 0.3s;
 }
 
-.contacto-infografia a:hover {
-    transform: translateY(-3px);
+.boton-contacto:hover {
     background-color: white;
-}
-
-.contacto-infografia span {
-    display: block;
-    color: #006b4f;
-    text-transform: uppercase;
-    font-size: 12px;
-    margin-bottom: 5px;
+    transform: translateY(-3px);
 }
 
 /* FOOTER */
@@ -409,5 +413,13 @@ footer {
 
     .contacto-infografia h3 {
         font-size: 28px;
+    }
+
+    .contacto-botones {
+        flex-direction: column;
+    }
+
+    .boton-contacto {
+        text-align: center;
     }
 }

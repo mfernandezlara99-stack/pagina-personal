@@ -300,21 +300,30 @@ nav h2 {
     margin-bottom: 30px;
 }
 
-.contacto-infografia p {
+.contacto-infografia a {
+    display: block;
     background-color: #f7f1e8;
     color: #1f1f1f;
-    padding: 16px 22px;
+    text-decoration: none;
+    padding: 18px 24px;
     border-radius: 25px;
     font-size: 15px;
     font-weight: bold;
     margin-bottom: 18px;
+    transition: 0.3s;
+}
+
+.contacto-infografia a:hover {
+    transform: translateY(-3px);
+    background-color: white;
 }
 
 .contacto-infografia span {
+    display: block;
     color: #006b4f;
     text-transform: uppercase;
     font-size: 12px;
-    margin-right: 5px;
+    margin-bottom: 5px;
 }
 
 /* FOOTER */
